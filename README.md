@@ -15,12 +15,6 @@ git pull
 ## remote origin의 development branch merge
 git merge origin/development
 
-## 한 줄로 그래프 형태로 commit 히스토리 보기
-git log --oneline --graph
-
-## remote에서 삭제된 brach를 local 에서도 깔끔하게 삭제
-git fetch origin --prune
-
 ## Setup
 git config --global user.name
 git config --global user.email
@@ -33,6 +27,3 @@ git branch -M main
 
 ## 원격 remote repository에 추가
 git remote add origin [url]
-
-## git push
-git push -u origin main
