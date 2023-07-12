@@ -37,8 +37,6 @@ git branch -M main                           //  최초 등록된 master branch 
 
 git remote add origin [url]                  // 원격 remote repository에 추가
 
-# 수정사항 적용 git clone 대신 git pull
-
 git fetch --all                              // Download objects and refs from another repository
 git reset --hard origin/master               // Reset current HEAD to the specified state
 git pull                                     // Fetch from and integrate with another repository or a local branch SYNOPSIS
