@@ -19,25 +19,58 @@ git push -u origin main
 ## …or import code from another repository
 You can initialize this repository with code from a Subversion, Mercurial, or TFS project.
 
-## git command
+## [git command 모음](https://git-scm.com/book/en/v2)
+### 사용자 정보 (최초)
 ```
-git add .                                    // 현재 directory 의 모든 파일을 Staging Area 로 이동
-git commit -m "messsage"                     // Staging 의 파일들 commit 하기
-git push                                     // 저장소에 commit 반영하기
-
-git pull                                     // 저장소에서 commit 가지고 오기
-git merge origin/development                 // remote origin의 development branch merge
-
-git config --global user.name                // Set user name
-git config --global user.email               // Set user email
-
-git init                                     // git 저장소로 등록
-
-git branch -M main                           //  최초 등록된 master branch 대신 main branch 사용하도록 변경
-
-git remote add origin [url]                  // 원격 remote repository에 추가
-
-git fetch --all                              // Download objects and refs from another repository
-git reset --hard origin/master               // Reset current HEAD to the specified state
-git pull                                     // Fetch from and integrate with another repository or a local branch SYNOPSIS
+git config --global user.name mango606
+git config --global user.email mango606@email.com
+```
+### 설정 확인
+```
+git config --list
+```
+### 기존 디렉토리를 Git 저장소로 만들기 (최초)
+```
+cd /c/user/git-test
+git init
+git add .
+git commit -m "initial project version"
+```
+### 📌 기존 저장소를 Clone 하기 (최초)
+```
+cd /c/user
+git clone https://github.com/mango606/git-test.git
+```
+### 파일의 상태를 짧게 확인하기
+```
+git status -s
+```
+### 커밋 히스토리 조회하기
+```
+git log
+```
+### 📌 새 브랜치 생성하기 & 브랜치 이동하기
+```
+git checkout -b develop
+```
+### main 브랜치에 Merge 하기
+```
+git checkout main
+git merge develop
+```
+### 필요없는 브랜치 삭제하기
+```
+git branch -d develop
+```
+### 📌 파일 업로드하기
+```
+git add .
+git commit -m "commit"
+git push
+```
+### 📌 파일 업데이트하기
+```
+git fetch --all
+git reset --hard origin/master
+git pull
 ```
