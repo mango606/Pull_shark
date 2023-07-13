@@ -1,6 +1,6 @@
 # git-test
 - "mango606/git-test" repository 기준으로 작성
-## ✅ repository 생성 시 command
+## ✅ repository 생성 시 git command
 ### …or create a new repository on the command line
 ```
 echo "# git-test" >> README.md
