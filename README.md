@@ -1,5 +1,5 @@
 # git-test
-- 이 repository 기준으로 작성
+- "mango606/git-test" repository 기준으로 작성
 
 ## …or create a new repository on the command line
 ```
