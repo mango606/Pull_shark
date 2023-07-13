@@ -1,18 +1,18 @@
-# git-test
+# git-test (이 repository 기준으로 작성)
 
 ## …or create a new repository on the command line
 ```
-echo "# test" >> README.md
+echo "# git-test" >> README.md
 git init
 git add README.md
 git commit -m "first commit"
 git branch -M main
-git remote add origin https://github.com/mango606/test.git
+git remote add origin https://github.com/mango606/git-test.git
 git push -u origin main
 ```
 ## …or push an existing repository from the command line
 ```
-git remote add origin https://github.com/mango606/test.git
+git remote add origin https://github.com/mango606/git-test.git
 git branch -M main
 git push -u origin main
 ```
