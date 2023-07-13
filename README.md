@@ -75,3 +75,11 @@ git fetch --all
 git reset --hard origin/master
 git pull
 ```
+### 기존 repository의 remote 제거
+```
+git remote remove origin
+```
+### 새 repository의 remote 추가
+```
+git remote add origin https://github.com/mango606/git-test.git
+```
