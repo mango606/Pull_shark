@@ -69,7 +69,7 @@ git add .
 git commit -m "commit"
 git push
 ```
-### 📌 파일 업데이트하기
+### 📌 파일 강제 업데이트하기
 ```
 git fetch --all
 git reset --hard origin/master
