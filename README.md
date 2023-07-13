@@ -1,6 +1,6 @@
 # git-test
 - "mango606/git-test" repository 기준으로 작성
-## repository 생성 시 command
+## ✅ repository 생성 시 command
 ### …or create a new repository on the command line
 ```
 echo "# git-test" >> README.md
@@ -20,7 +20,7 @@ git push -u origin main
 ### …or import code from another repository
 You can initialize this repository with code from a Subversion, Mercurial, or TFS project.
 
-## [git command 모음](https://git-scm.com/book/en/v2)
+## ✅ [git command 모음](https://git-scm.com/book/en/v2)
 ### 사용자 정보 (최초)
 ```
 git config --global user.name mango606
