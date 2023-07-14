@@ -11,7 +11,7 @@ git branch -M main
 git remote add origin https://github.com/mango606/git-test.git
 git push -u origin main
 ```
-### …or push an existing repository from the command line (clone 했을 떄)
+### …or push an existing repository from the command line (clone 후)
 ```
 git remote add origin https://github.com/mango606/git-test.git
 git branch -M main
