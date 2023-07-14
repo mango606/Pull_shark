@@ -20,7 +20,7 @@ git push -u origin main
 ### …or import code from another repository
 You can initialize this repository with code from a Subversion, Mercurial, or TFS project.
 
-## ✅ [git command 모음](https://git-scm.com/book/en/v2)
+## ✅ 자주 사용하는 [git command](https://git-scm.com/book/en/v2) 모음
 ### 사용자 정보 (최초)
 ```
 git config --global user.name mango606
