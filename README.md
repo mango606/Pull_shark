@@ -1,5 +1,5 @@
 # git-test
-- "mango606/git-test" repository 기준으로 작성
+- [mango606/git-test](https://github.com/mango606/git-test.git) repository 기준으로 작성했습니다.
 ## ✅ repository 생성 시 git command
 ### …or create a new repository on the command line
 ```
